@@ -39,10 +39,3 @@ def result_ct(theta):
 yy=[]
 xx=[]
  
-for i in range (20):
-  yy.append(result_ct(i*3.14/180))
-  xx.append(i)
-print (xx, yy)
-plt.plot(xx,yy)
-plt.xlabel('pitch angle')
-plt.ylabel('Thrust')
